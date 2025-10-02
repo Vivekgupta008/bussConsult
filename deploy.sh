@@ -43,7 +43,7 @@ git commit -m "Deploy: Business Consultancy Website - $(date)"
 
 # Push to GitHub
 echo "🚀 Pushing to GitHub..."
-git push origin main
+git push origin master
 
 if [ $? -eq 0 ]; then
     echo ""
